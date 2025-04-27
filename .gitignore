@@ -1,5 +1,5 @@
 #Ignore token.env containing discord bot token
-token.env
+.env
 
 #ignore node_modules
 node_modules
