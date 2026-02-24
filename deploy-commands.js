@@ -1,10 +1,10 @@
-const { REST, Routes, ClientVoiceManager } = require('discord.js');
+const { REST, Routes } = require('discord.js');
 const fs = require('node:fs');
 const path = require('node:path');
 
+
 //Require tokens from dotenv
 const dotenv = require('dotenv');
-const { log } = require('node:console');
 dotenv.config();
 
 const clientId = process.env.DISCORD_CLIENT;
